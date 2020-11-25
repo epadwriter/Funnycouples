@@ -1,53 +1,34 @@
 package application;
-
-
+import java.util.*;
 
 /**
  * 
  */
-public class Jugador extends FunnyCouples {
-	
-	
-	 public String Nombre;
-	 public int Intentos;
-	 public int Puntaje;
+public class Jugador {
 
     /**
-     * constructor
+     * Default constructor
      */
-	
-	
-    public Jugador(String NombreJugador, int Nintentos, int VPuntaje) {
-    	
-   	
-    	
+    public Jugador() {
     }
 
-	public String getNombre() {
-		return Nombre;
-	}
+    /**
+     * 
+     */
+    public String Nombre;
 
-	public void setNombre(String nombre) {
-		Nombre = nombre;
-	}
+    /**
+     * 
+     */
+    public int Intentos;
 
-	public int getIntentos() {
-		return Intentos;
-	}
+    /**
+     * 
+     */
+    public int Puntaje;
 
-	public void setIntentos(int intentos) {
-		Intentos = intentos;
-	}
 
-	public int getPuntaje() {
-		return Puntaje;
-	}
 
-	public void setPuntaje(int puntaje) {
-		Puntaje = puntaje;
-	}
 
-  
 
-    
 }
